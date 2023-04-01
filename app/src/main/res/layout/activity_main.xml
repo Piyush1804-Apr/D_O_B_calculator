@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    android:padding="10dp"
+
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Calculate your "
+        android:textColor="#e2711d"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age "
+
+        android:textSize="55dp"
+        android:padding="10dp"
+        android:background="#c0d6df"
+        android:textColor="#e2711d"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Minute"
+        android:padding="10dp"
+        android:textSize="55dp"
+        android:textColor="#e2711d"
+        android:textStyle="bold"
+        
+        />
+    <Button
+        android:id="@+id/Datepic_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date "
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:backgroundTint="#c97c5d"
+        />
+    <TextView
+        android:id="@+id/tvselectedateid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:text="18.04.2002 "
+        android:textSize="25sp"
+        android:textColor="#e2711d"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Selected Date"
+        android:textSize="25sp"
+        android:textColor="#c0c0c0"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/tvAgeInMin"
+        android:text="4000000 "
+        android:textSize="25sp"
+        android:textColor="#e2711d"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:text="Selected Date"
+        android:textSize="25sp"
+        android:textColor="#c0c0c0"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+</LinearLayout>
